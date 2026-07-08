@@ -30,6 +30,13 @@ git checkout -b <branch name> = create a new branch and switch to it
 git checkout <branch name> = switch to a branch
 
 git pull origin <branch name> = pull from github to local
+git push origin <branch name> = push from local to github
+
+git merge <branch name> = merge branch into current branch
+
+git resst --hard <tag> = reset to a tag or commit
+
+git diff = show changes made to files
 
 clear
 history
