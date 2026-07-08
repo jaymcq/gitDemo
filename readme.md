@@ -25,12 +25,10 @@ git remote add origin <link to github> = remote add called 'orgin' to url
 git push origin master = push local to github
 git push origin <branch name> = push local branch to github
 git push origin --tags = push all tags to github
+git pull origin <branch name> = pull from github to local
 
 git checkout -b <branch name> = create a new branch and switch to it
 git checkout <branch name> = switch to a branch
-
-git pull origin <branch name> = pull from github to local
-git push origin <branch name> = push from local to github
 
 git merge <branch name> = merge branch into current branch
 
