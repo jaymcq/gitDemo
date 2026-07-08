@@ -9,6 +9,7 @@ To enable Powershell in VS Tools->Command Line->Terminal
 Make sure Powershell shows correct location
 
 ## Git Commands
+
 '''
 git status = check if current is a git repository and check status
 git init = make current a git repository
@@ -21,4 +22,5 @@ git commit -m 'base files'
 git tag -a '<version>' -m '<release>' = adds a tag
 git remote add origin <link to github> = remote add called 'orgin' to url
 git push origin master = push local to github
+git push origin --tags = push all tags to github
 '''
