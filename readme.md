@@ -10,7 +10,7 @@ Make sure Powershell shows correct location
 
 ## Git Commands
 
-'''
+
 git status = check if current is a git repository and check status
 
 git init = make current a git repository can remove ".git" file to disconnect
@@ -37,4 +37,3 @@ git checkout -b <branch name> = create a new branch and switch to it
 
 git checkout <branch name> = switch to a branch
 
-'''
