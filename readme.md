@@ -21,7 +21,7 @@ git log = list all commits made
 
 git tag -a '<version>' -m '<release>' = adds a tag
 
-git remote add origin <link to github> = remote add called 'orgin' to url
+git remote add origin <link to github> = remote add to origin github
 git push origin master = push local to github
 git push origin <branch name> = push local branch to github
 git push origin --tags = push all tags to github
@@ -32,7 +32,7 @@ git checkout <branch name> = switch to a branch
 
 git merge <branch name> = merge branch into current branch
 
-git resst --hard <tag> = reset to a tag or commit
+git reset --hard <tag> = reset to a tag or commit
 
 git diff = show changes made to files
 
@@ -43,8 +43,10 @@ history
 ## Common Commands
 ```
 git status
-git add -A && git commit -m '<message>'
+git add -A 
+git commit -m '<message>'
 git checkout -b <branch name>
+git checkout <branch name>
 git pull origin <branch name>
 git push origin <branch name>
 
